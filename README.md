@@ -26,19 +26,19 @@ In comparison to other algorithms, this scheduler is superficially similar to th
 
 Here's an overview of things are laid out:
 
-- elevator-sim/
+- **elevator-sim/**
   - CMakeLists.txt *# (here and throughout) Used by cmake to generate Makefiles.*
   - LICENCE *# GPL3*
   - README
-  - apps/ *# Front-end executables to library code in sim/*
+  - **apps/** *# Front-end executables to library code in sim/*
     - sim-sample.cpp *# Basic executable which just runs random requests with verbose settings* enabled.
-  - bin/ *# Build output goes here. created manually in "INSTALLATION/BUILD" steps.*
-  - sim/ *# Main library code. Referenced by apps/ and tests/*
+  - **bin/** *# Build output goes here. created manually in "INSTALLATION/BUILD" steps.*
+  - **sim/** *# Main library code. Referenced by apps/ and tests/*
     - elevator.h/.cpp *# The Elevator class, described in "HOW THINGS WORK"*
     - logging.h/.cpp *# Very basic logging utility (wouldn't recommend for 'real' code)*
     - scheduler.h/.cpp *# The Scheduler class, described in "HOW THINGS WORK"*
     - types.h/.cpp *# Types which are shared by Elevator and Scheduler code*
-  - tests/ *# Unit tests for library code in sim/*
+  - **tests/** *# Unit tests for library code in sim/*
     - test-elevator.cpp *# Tests for the Elevator class*
     - test-scheduler.cpp *# Tests for the Scheduler class*
 
