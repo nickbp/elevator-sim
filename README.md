@@ -78,7 +78,9 @@ Here's an overview of things are laid out:
 5. Run the basic sample executable:
 
    ```sh
-   bin$ ./apps/sim-sample
+   bin$ ./apps/sim-sample # use default settings
+   bin$ ./apps/sim-sample -h # help
+   bin$ ./apps/sim-sample -f 10 -e 3 -r 40 # custom settings
    ```
 
 6. Run unit tests:
