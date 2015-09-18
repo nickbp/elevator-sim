@@ -1,6 +1,3 @@
-in its own local queue until an Elevator has become available, either by going idle or by switching to a new path that's compatible with the request. The Scheduler will attempt to allocate these pending requests at the start of every tick by re-querying Elevators to approve the request.
-
-
 # Elevator Sim
 
 ### How Things Work
